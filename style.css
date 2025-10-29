@@ -1,0 +1,9 @@
+.benvenuto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 90vh;
+    background-color: black;
+}
