@@ -21,3 +21,14 @@
 .bth {
     width: auto;
 }
+
+.logo{
+    width: 50%;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 5vh;
+}
