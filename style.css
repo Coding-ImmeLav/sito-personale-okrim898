@@ -32,3 +32,79 @@ footer{
     background-color: black;
     padding: 5vh;
 }
+
+.card {
+    height: 100%;
+}
+
+.card-header , .card-footer {
+    background-color: transparent;
+    border: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.calc-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.calculator {
+    background-color: #d3d3d3; 
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.display {
+    background-color: #ffffff;
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 10px;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    grid-template-rows: repeat(5, 60px);
+    gap: 10px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn.num,
+.btn.dot,
+.btn.clear,
+.btn.equal {
+    background-color: #666666;
+    color: #ffffff;
+}
+
+.btn.op {
+    background-color: orange;
+    color: #000000;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+

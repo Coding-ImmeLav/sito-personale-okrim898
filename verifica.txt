@@ -1,0 +1,94 @@
+es.1
+
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+
+    int numero;
+    cout << "scrivi un numero";
+    cin >> numero;
+
+    if (numero > 100)
+    {
+        cout << "Numero maggiore di 100";
+    }
+
+}
+
+
+es.2
+
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int numerro;
+    cout << "scrivi un numerro: ";
+    cin >> numerro;
+
+    int i = 0;
+
+    if (numerro > 0) 
+    {
+        while (i <= numerro) 
+        {
+            cout << i << "\n";
+            i = i + 1;
+        }
+    }
+}
+
+
+es.3
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float n1, n2, n3;
+
+    cout << "Scrivi un numerro numeri: ";
+    cin >> n1 ;
+
+    cout << "Scrivi un numerro numeri: ";
+    cin >> n2;
+
+    float max1;
+
+    if (n1 > n2)
+    {
+        max1 = n1;
+    }   
+    else
+    {
+        max1 = n2;
+    }
+
+    cout << max1 << "\n";
+
+    float massimo;
+
+    cout << "Dammi un altro numero: " << "\n";
+    cin >> n3;
+
+    if (max1 > n3) 
+    {
+        massimo = max1;
+    }
+    else
+    {
+        massimo = n3;
+    }
+
+    float media = (n1 + n2 + n3) / 3;
+        
+    float PotenzaPazza = media * massimo;
+
+    cout << "PotenzaPazza: " << PotenzaPazza << "\n";
+}
